@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fantasy Football Hub</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,40 +22,67 @@
   </head>
 
   <body class="container">
-    <h1>Fantasy Football Hub</h1>
-    <br />
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Fantasy Football Hub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="community.html">Community Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </ul>
+        </div>
+      </nav>
+      <h1>Fantasy Football Hub</h1>
+        <p>Welcome to the Hub! Where you will find all things Fantasy Football.</p>
+        <p>See weekly stats, discuss strategies, and player performances.</p>
+        <p>Pop over to the Community Forum to add community topics or just catch up on what others are saying!</p>
+      <table class="table table-dark table-hover">
+        <tr>
+          <th>Players</th>
+          <th>Team</th>
+          <th>Fantasy Football Rank</th>
+        </tr>
+        <tr>
+          <td>Tom</th>
+          <th>Uncle Gpa Goal Diggers</th>
+          <th>02</th>
+        </tr>
+        <tr>
+          <td>Benson</th>
+          <th>Kicking Chickens</th>
+          <th>03</th>
+        </tr>
+        <tr>
+          <td>Troy</th>
+          <th>Soccer Ates</th>
+          <th>04</th>
+        </tr>
+        <tr>
+          <td>Jimbo</th>
+          <th>Net Busters</th>
+          <th>01</th>
+        </tr>
+      </table>
+
+      <button id="showCard">Show Player Cards</button>
+      <div class="field"></div>
+      
+
     <button type="button" class="btn btn-warning">Warning</button>
 
-    <p>Welcome to the Hub! Where you will find all things Fantasy Football.</p>
-    <p>See weekly stats, discuss strategies, and player performances.</p>
-    <p>Pop over to the Community Forum to add community topics or just catch up on what others are saying!</p>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">Always testing</div>
-        <div class="col-sm">Some more testing</div>
-        <div class="col-sm">And more and more testing</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">Always testing</div>
-        <div class="col-md-3">Some more testing</div>
-        <div class="col-md-2">And more and more testing</div>
-      </div>
-    </div>
+    
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm">Always testing</div>
-        <div class="col-sm">Some more testing</div>
-        <div class="col-sm">
-          <div class="row">
-            <div class="col-md-8">Here's the 8!</div>
-            <div class="col-md-4">Here's the 4!</div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
 
     <div class="alert alert-primary">Primary</div>
     <div class="alert alert-secondary">Secondary</div>
@@ -64,35 +91,8 @@
 
 
 
-    <table class="table table-dark table-hover">
-      <tr>
-        <th>Players</th>
-        <th>Team</th>
-        <th>Fantasy Football Rank</th>
-      </tr>
-      <tr>
-        <td>Tom</th>
-        <th>Uncle Gpa</th>
-        <th>9</th>
-      </tr>
-      <tr>
-        <td>Benson</th>
-        <th>Soccer Mouth</th>
-        <th>4</th>
-      </tr>
-      <tr>
-        <td>Troy</th>
-        <th>Sunshine</th>
-        <th>7</th>
-      </tr>
-    </table>
 
-    <div class="bottom-bar">
-        <br />
-        <a href="index.html">Home</a><br />
-        <a href="community.html">Community Forum</a><br />
-        <a href="contact.html">Contact</a><br />
-      </div>
+   
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
