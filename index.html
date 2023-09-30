@@ -10,42 +10,60 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <style>
-      div {
-        border-style: solid;
-        border-color: black;
-        padding: 5px;
-        margin: 5px;
-      }
-    </style>
+   
   </head>
 
-  <body class="container">
-   
+  <body class="bg-secondary">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Fantasy Football Hub</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" 
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="community.html">Community Forum</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-          </ul>
-        </div>
-      </nav>
-      <h1>Fantasy Football Hub</h1>
-        <p>Welcome to the Hub! Where you will find all things Fantasy Football.</p>
-        <p>See weekly stats, discuss strategies, and player performances.</p>
-        <p>Pop over to the Community Forum to add community topics or just catch up on what others are saying!</p>
+      <a class="navbar-brand" href="index.html">Fantasy Football Hub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="playershub.html">Players Hub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="community.html">Community Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </ul>
+      </div>
+    </nav>
+   
+    <div id="main-container" class="container pt-2 pb-5 bg-light">
+      <div>
+        <img
+          src="banner.png"
+          class="img-fluid"
+          alt="Page banner art of soccer balls"
+          width="2000"
+        />
+      </div>
+      
+
+   
+      <h1 class="text-center mb-5">Fantasy Football Hub</h1>
+
+      <div class="container text-center fs-4">
+        <p>
+          Welcome to the HUB! Find all things Fantasy Football, including player cards. See weekly stats, discuss strategies
+          and player performances. 
+        </p>
+        <p>
+          Pop over to the Community Forum to add discussion topics or chime in on others. 
+        </p>
+      </div>
+
+
+      <h1 class="text-center mt-5 mb-5">Players Hub</h1>
+      <div class="alert alert-primary text-center fs-6">Weekly Top Ranked Players</div>
       <table class="table table-dark table-hover">
         <tr>
           <th>Players</th>
@@ -74,20 +92,68 @@
         </tr>
       </table>
 
-      <button id="showCard">Show Player Cards</button>
-      <div class="field"></div>
-      
-
-    <button type="button" class="btn btn-warning">Warning</button>
-
-    
-
    
 
-    <div class="alert alert-primary">Primary</div>
-    <div class="alert alert-secondary">Secondary</div>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <br /><br />
+    <div class="alert alert-secondary text-center fs-5">All Others</div>
+    <div id="top-players" class="container text-center mb-5 fs-6">
+      <div class="row"><h3></h3></div>
+      <div class="row">
+      <div class="col-lg-2">Ken</div>
+      <div class="col-lg-2">Sam</div>
+      <div class="col-lg-2">Mark</div>
+      <div class="col-lg-2">Steve</div>
+      <div class="col-lg-2">Greg</div>
+      <div class="col-lg-2">Matt</div>
+      </div>
+    
+      <div class="container text-center mb-5 fs-2">
+        <div class="row">
+          <div class="col-md">
+            <div id="card-1" class="card bg-secondary">
+              <img
+                src="net buster.png"
+                class="card-img-top"
+                alt="Net Buster"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jim, Net Busters</h5>
+                <a href="#" class="btn btn-outline-info btn-lg">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-2" class="card bg-secondary">
+              <img
+                src="images/dane.jpg"
+                class="card-img-top"
+                alt="Greate Dane sitting next to body of water."
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Great Dane</h5>
+                <a href="#" class="btn btn-outline-info btn-lg">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-3" class="card bg-secondary">
+              <img
+                src="images/shepard.jpg"
+                class="card-img-top"
+                alt="German Shepard sitting on fall leaves and grass."
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">German Shepherd</h5>
+                <a href="#" class="btn btn-outline-info btn-lg">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
